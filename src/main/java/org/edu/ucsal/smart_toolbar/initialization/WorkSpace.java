@@ -1,4 +1,4 @@
-package org.edu.ucsal.smart_toolbar;
+package org.edu.ucsal.smart_toolbar.initialization;
 
 import javax.swing.*;
 import java.awt.*;
