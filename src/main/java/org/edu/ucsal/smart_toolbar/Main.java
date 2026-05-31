@@ -23,11 +23,11 @@ public class Main extends JFrame {
         toolbar.add(readModeBtn);
 
         nightModeBtn.addActionListener(e -> {
-            activateNightModel.execute();
+            activateNightModel.activateNM();
         });
 
         readModeBtn.addActionListener(e -> {
-            readMode.execute();
+            readMode.ActRM();
         });
     }
 

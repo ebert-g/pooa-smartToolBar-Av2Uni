@@ -10,7 +10,7 @@ public class ActivateNightModel {
         this.ws = ws;
     }
 
-    public void execute() {
+    public void activateNM() {
         ws.changeColor(new Color(44, 62, 80));
     }
 }

@@ -9,7 +9,7 @@ public class ReadMode {
     }
 
 
-    public void execute() {
+    public void ActRM() {
         ws.changeColor(new java.awt.Color(245, 245, 220));
     }
 }
