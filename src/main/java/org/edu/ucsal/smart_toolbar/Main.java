@@ -1,6 +1,6 @@
 package org.edu.ucsal.smart_toolbar;
 
-import org.edu.ucsal.smart_toolbar.gui.Seed;
+import org.edu.ucsal.smart_toolbar.view.Invoker;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -13,8 +13,8 @@ public class Main {
         ConfigurableApplicationContext context = new SpringApplicationBuilder(Main.class).headless(false).run(args);
 
         SwingUtilities.invokeLater(() -> {
-            Seed seed = context.getBean(Seed.class);
-            seed.setVisible(true);
+            Invoker invoker = context.getBean(Invoker.class);
+            invoker.setVisible(true);
         });
     }
 
